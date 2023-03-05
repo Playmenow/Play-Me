@@ -1,0 +1,368 @@
+.collectionsChild,
+.collectionsItem {
+  position: absolute;
+  top: 153px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+.collectionsItem {
+  top: 0;
+  left: 94px;
+  width: 0;
+  height: 832px;
+}
+.logoIcon {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.appnavChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--dark-alt);
+  width: 52px;
+  height: 230px;
+}
+.homeIcon {
+  position: relative;
+  width: 39.42px;
+  height: 40.33px;
+  flex-shrink: 0;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.playlistIcon,
+.radioIcon {
+  position: relative;
+  width: 40.33px;
+  height: 40.79px;
+  flex-shrink: 0;
+}
+.radioIcon {
+  width: 22px;
+  height: 22px;
+}
+.homeParent {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.appnav,
+.personalChild {
+  position: absolute;
+  top: 96px;
+  left: 20px;
+  width: 52px;
+  height: 230px;
+}
+.personalChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--dark-alt);
+  height: 127px;
+}
+.logoutIcon,
+.profileIcon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  opacity: 0.25;
+}
+.logoutIcon {
+  overflow: hidden;
+}
+.personal {
+  position: absolute;
+  top: 346px;
+  left: 20px;
+  width: 52px;
+  height: 127px;
+}
+.searchIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.search {
+  position: relative;
+  font-weight: 600;
+}
+.searchParent {
+  position: absolute;
+  top: 29px;
+  left: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.topnav {
+  position: absolute;
+  top: 0;
+  left: 96px;
+  background-color: var(--dark);
+  width: 1122px;
+  height: 73px;
+  overflow: hidden;
+}
+.myNfts {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  width: 85px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.myNftsWrapper {
+  position: absolute;
+  top: 96px;
+  left: 101px;
+  border-radius: 27px;
+  background-color: var(--secondary);
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+}
+.collectioncardChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 213px;
+  height: 234px;
+  object-fit: cover;
+}
+.johnWatts,
+.limits {
+  position: relative;
+  line-height: 120%;
+}
+.johnWatts {
+  font-size: var(--regular-10-size);
+  opacity: 0.75;
+}
+.limitsParent,
+.mLikes {
+  position: absolute;
+  left: 19px;
+}
+.limitsParent {
+  top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.mLikes {
+  top: 235px;
+  font-size: var(--regular-10-size);
+  line-height: 120%;
+  color: var(--color-white);
+}
+.playIcon {
+  position: absolute;
+  top: 159px;
+  left: 146px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  opacity: 0;
+}
+.collectioncard {
+  position: relative;
+  border-radius: var(--br-sm);
+  width: 213px;
+  height: 234px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.sikiboiWrapper {
+  position: absolute;
+  top: 170px;
+  left: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.collectioncardInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 213px;
+  height: 259px;
+  object-fit: cover;
+}
+.collectioncardParent {
+  position: absolute;
+  top: 156px;
+  left: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: var(--bold-24-size);
+  color: var(--color-oldlace);
+}
+.musicplayerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+}
+.musicplayerInner,
+.musicplayerItem {
+  position: absolute;
+  height: 2.4%;
+  top: 41.6%;
+  bottom: 56%;
+  left: 82.51%;
+  border-radius: var(--br-2xl);
+}
+.musicplayerItem {
+  width: 12.38%;
+  right: 5.11%;
+  background-color: var(--color-gray-700);
+}
+.musicplayerInner {
+  width: 3.95%;
+  right: 13.54%;
+  background-color: var(--secondary);
+}
+.vectorIcon,
+.vuesaxboldshuffleIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.vuesaxboldshuffleIcon {
+  width: 16px;
+  height: 16px;
+}
+.vectorIcon {
+  width: 8.33px;
+  height: 8.88px;
+}
+.vectorWrapper,
+.vuesaxboldshuffleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vectorWrapper {
+  border-radius: var(--br-3xl);
+  background-color: var(--secondary);
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.3);
+  padding: var(--padding-sm);
+  justify-content: center;
+}
+.vuesaxboldshuffleParent {
+  position: absolute;
+  height: 20.44%;
+  width: 19.89%;
+  top: 20%;
+  right: 40.17%;
+  bottom: 59.56%;
+  left: 39.94%;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.groupIcon,
+.rectangleIcon {
+  position: absolute;
+  height: 19.2%;
+  width: 57.97%;
+  top: 57.6%;
+  right: 21.13%;
+  bottom: 23.2%;
+  left: 20.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleIcon {
+  height: 56.8%;
+  width: 4.88%;
+  top: 25.6%;
+  right: 87.85%;
+  bottom: 17.6%;
+  left: 7.28%;
+  border-radius: var(--br-2xs);
+  object-fit: cover;
+}
+.callOfDuty,
+.zinoleesky {
+  position: absolute;
+  top: 29.6%;
+  left: 12.62%;
+  line-height: 120%;
+}
+.zinoleesky {
+  top: 45.6%;
+  font-size: var(--regular-10-size);
+  color: var(--color-gray-800);
+}
+.vuesaxboldvolumeHighIcon {
+  position: absolute;
+  height: 14.4%;
+  width: 1.39%;
+  top: 35.2%;
+  right: 17.96%;
+  bottom: 50.4%;
+  left: 80.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.musicplayer {
+  position: absolute;
+  top: 722px;
+  left: -5px;
+  box-shadow: 0-25px 100px rgba(16, 16, 16, 0.51);
+  width: 1292px;
+  height: 125px;
+  color: var(--color-white);
+}
+.collections {
+  position: relative;
+  background-color: var(--dark);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--regular-14-size);
+  color: var(--color-gray-500);
+  font-family: var(--bold-24);
+}

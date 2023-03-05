@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --bold-24: Quicksand;
+
+  /* font sizes */
+  --regular-10-size: 10px;
+  --regular-12-size: 12px;
+  --regular-14-size: 14px;
+  --regular-17-size: 17px;
+  --bold-24-size: 24px;
+  --bold-35-size: 35px;
+
+  /* Colors */
+  --dark: #1d2123;
+  --dark-alt: #1a1e1f;
+  --color-gray-300: rgba(255, 255, 255, 0.5);
+  --color-gray-400: rgba(255, 255, 255, 0.07);
+  --color-gray-500: rgba(255, 255, 255, 0.25);
+  --color-gray-600: rgba(29, 33, 35, 0.3);
+  --color-gray-700: rgba(255, 255, 255, 0.1);
+  --color-gray-800: rgba(255, 255, 255, 0.44);
+  --color-white: #fff;
+  --secondary: #facd66;
+  --color-oldlace: #efeee0;
+  --color-darkslategray: rgba(51, 55, 59, 0.37);
+
+  /* Gaps */
+  --gap-2xs: 5px;
+  --gap-xs: 9px;
+  --gap-sm: 10px;
+  --gap-md: 22px;
+  --gap-lg: 31px;
+  --gap-xl: 42px;
+
+  /* Paddings */
+  --padding-sm: 8.333333015441895px;
+  --padding-md: 10px;
+
+  /* border radiuses */
+  --br-4xs: 8.53px;
+  --br-3xs: 10px;
+  --br-2xs: 14px;
+  --br-xs: 15px;
+  --br-sm: 20px;
+  --br-md: 25px;
+  --br-lg: 32px;
+  --br-xl: 40px;
+  --br-2xl: 42px;
+  --br-3xl: 99.17px;
+}
